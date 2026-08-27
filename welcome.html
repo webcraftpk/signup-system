@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        .welcome-box {
+            width: 450px;
+            padding: 50px 35px;
+            text-align: center;
+            background: white;
+            border: 1px solid #dadce0;
+            border-radius: 15px;
+        }
+
+        .check {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 400;
+            color: #202124;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #5f6368;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            background: #1a73e8;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1765c1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="welcome-box">
+
+        <div class="check">✅</div>
+
+        <h1>Welcome!</h1>
+
+        <p>Your account has been created successfully.</p>
+
+        <button onclick="window.location.href='index.html'">
+            Back to Signup
+        </button>
+
+    </div>
+
+</body>
+</html>
